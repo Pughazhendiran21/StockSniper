@@ -15,7 +15,15 @@ default_ticker = "AAPL"
 default_start = date.today() - timedelta(days=30)
 default_end = date.today() - timedelta(days=1)
 
-st.set_page_config(page_title="Stock Dashboard", icon = "📈", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Stock Dashboard", icon = "static/android-chrome-192x192.png", layout="wide", initial_sidebar_state="collapsed")
+st.markdown(
+    """
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" type="image/png" href="static/android-chrome-192x192.png">
+    """,
+    unsafe_allow_html=True
+)
+
 
 st.title("📊 Stock Dashboard")
 

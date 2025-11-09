@@ -49,18 +49,23 @@ A sleek, interactive dashboard to track stock prices, analyze key financial metr
 ```bash
 git clone https://github.com/project54321/StockDashboard.git
 cd StockDashboard
+```
+
 2. Create a virtual environment (optional but recommended)
-bash
+```bash
 Copy code
 python -m venv venv
 source venv/bin/activate  # Linux / macOS
 venv\Scripts\activate     # Windows
-3. Install dependencies
-bash
+```
+
+4. Install dependencies
+```bash
 Copy code
 pip install -r requirements.txt
-requirements.txt example:
+```
 
+requirements.txt example:
 nginx
 Copy code
 streamlit
@@ -71,20 +76,20 @@ plotly
 python-dotenv
 alpha_vantage
 stocknews
+
 4. Add your API Key
 Create a .env file in the project root:
 
-env
+```env
 Copy code
 API_KEY=YOUR_ALPHA_VANTAGE_API_KEY
+```
+
 Important: Keep .env in .gitignore to avoid committing your key.
 
 Usage
-Run the Streamlit app:
+Run the Streamlit app: streamlit run [pythonfile.py]
 
-bash
-Copy code
-streamlit run app.py
 Enter a ticker symbol (e.g., AAPL, MSFT).
 
 Select start and end dates.
@@ -99,7 +104,7 @@ API_KEY: Required for accessing Alpha Vantage data.
 Loaded using python-dotenv for security.
 
 Project Structure
-bash
+```bash
 Copy code
 StockDashboard/
 │
@@ -108,19 +113,15 @@ StockDashboard/
 ├── .env               # API keys (not committed)
 ├── README.md          # Project documentation
 └── assets/            # Optional folder for screenshots, logos, etc.
+```
+
 Technologies Used
 Python – Core programming language.
-
 Streamlit – Interactive dashboard framework.
-
 Plotly – Interactive charts and visualizations.
-
 pandas / numpy – Data manipulation and calculations.
-
 yfinance – Historical stock prices.
-
 Alpha Vantage – Fundamental financial statements.
-
 StockNews – Company news feed and sentiment analysis.
 
 Contributing
@@ -133,7 +134,7 @@ Create a new branch for your feature/bugfix.
 Submit a pull request with a detailed description of your changes.
 
 License
-MIT License – see LICENSE file for details.
+MIT License
 
 Credits
 Made by Arjun Averineni | GitHub

@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -68,7 +69,7 @@ with pricing_data:
 
 with fundamental_data:
     st.header("Fundamental Data")
-    key = "TW5N7JYESK82JKWC"
+    key = os.getenv("API_KEY")
     fd = FundamentalData(key, output_format="pandas")
 
     try:

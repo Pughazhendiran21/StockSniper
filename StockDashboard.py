@@ -15,7 +15,7 @@ default_ticker = "AAPL"
 default_start = date.today() - timedelta(days=30)
 default_end = date.today() - timedelta(days=1)
 
-st.set_page_config(page_title="Stock Dashboard", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Stock Dashboard", icon = "📈", layout="wide", initial_sidebar_state="collapsed")
 
 st.title("📊 Stock Dashboard")
 

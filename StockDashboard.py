@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -7,6 +8,8 @@ import plotly.express as px
 from datetime import date, timedelta
 from alpha_vantage.fundamentaldata import FundamentalData
 from stocknews import StockNews
+
+load_dotenv()
 
 default_ticker = "AAPL"
 default_start = date.today() - timedelta(days=30)

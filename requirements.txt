@@ -1,4 +1,8 @@
-numpy
-pandas
 streamlit
+yfinance
+pandas
+numpy
 plotly
+python-dotenv
+alpha_vantage
+stocknews

@@ -66,7 +66,7 @@ pip install -r requirements.txt
 ```
 
 requirements.txt example:
-nginx
+```nginx
 Copy code
 streamlit
 yfinance
@@ -76,6 +76,7 @@ plotly
 python-dotenv
 alpha_vantage
 stocknews
+```
 
 4. Add your API Key
 Create a .env file in the project root:
@@ -138,3 +139,7 @@ MIT License
 
 Credits
 Made by Arjun Averineni | GitHub
+
+Changes in upcoming versions:
+- Authentication
+- Favicons

